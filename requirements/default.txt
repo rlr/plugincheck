@@ -1,0 +1,2 @@
+# sha256: 8zJVr7ue4Jd9kJWrC1D94fjd_0IgtX6NGcZiCz4xYXA
+django==1.7.4

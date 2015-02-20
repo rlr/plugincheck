@@ -1,0 +1,26 @@
+sudo: no
+language: python
+python: "2.7"
+
+env:
+  globals:
+    - DJANGO_SETTINGS_MODULE="plugincheck.settings_travis"
+    - PIP_DOWNLOAD_CACHE="pip_cache"
+  matrix:
+    - TEST_SUITE=django
+
+cache:
+  directories:
+    - pip_cache
+
+install: scripts/travis/install.sh
+before_script: scripts/travis/setup.sh
+script: scripts/travis/dispatch.sh $TEST_SUITE
+
+notifications:
+    email: false
+    irc:
+        channels:
+            - "irc.mozilla.org#plugincheck"
+        on_success: always
+        on_failure: always

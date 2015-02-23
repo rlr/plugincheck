@@ -1,3 +1,4 @@
-from django.contrib import admin
+from django_browserid.admin import site as browserid_admin
 
-# Register your models here.
+
+admin_site = browserid_admin

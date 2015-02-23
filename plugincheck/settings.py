@@ -30,16 +30,22 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
-    'django.contrib.admin',
+    # django contrib apps
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # 3rd party
+    'django_browserid',
+
     # local apps
     'plugincheck.base',
     'plugincheck.plugins',
+
+    # more django contrib apps that need to load later
+    'django.contrib.admin',   # needs to be after plugincheck.base
 )
 
 MIDDLEWARE_CLASSES = (
@@ -85,3 +91,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+AUTHENTICATION_BACKENDS = (
+   'django_browserid.auth.BrowserIDBackend',
+)
+
+LOGIN_REDIRECT_URL = '/admin/'

@@ -1,5 +1,14 @@
 # sha256: 8zJVr7ue4Jd9kJWrC1D94fjd_0IgtX6NGcZiCz4xYXA
 django==1.7.4
 
+# sha256: EXGi39Bz0MuXOkgtic_AweW52n1VHcCgAkEoZ-z1KT4
+django-browserid==0.11.1
+
+# sha256: akF58qKszaKyc7_Ybeb3AkzuIDBDzJp8BA_nswa74SA
+fancy-tag==0.2.0
+
 # sha256: wAr-yzAqmaT4PeybBVxNHMGWkm1iyNsBXWhDLfgRjKg
 psycopg2==2.6
+
+# sha256: e3c179Ox4jI9yfzvBgs4DQX18YvQ8kf16edKYoJ53mY
+requests==2.5.1

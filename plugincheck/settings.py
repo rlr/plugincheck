@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     # local apps
+    'plugincheck.base',
     'plugincheck.plugins',
 )
 

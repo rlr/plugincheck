@@ -15,6 +15,7 @@ admin_site.copy_registry(admin.site)
 
 urlpatterns = patterns('',
     url(r'', include('django_browserid.urls')),
+    url(r'', include('plugincheck.plugins.urls')),
 
     url(r'^admin/', include(admin_site.urls)),
 )

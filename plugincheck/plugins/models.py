@@ -61,7 +61,7 @@ class PluginRelease(models.Model):
     )
 
     # OSes
-    ALL = u'*'
+    ALL = u'all'
     WINDOWS = u'win'
     MAC = u'mac'
     LINUX = u'lin'

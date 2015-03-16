@@ -2,15 +2,16 @@ from django.contrib import admin
 
 from plugincheck.base.admin import admin_site
 from plugincheck.plugins.models import Mime, Plugin, PluginAlias, PluginRelease
+from simple_history.admin import SimpleHistoryAdmin
 
 
 @admin.register(Mime, site=admin_site)
-class MimeAdmin(admin.ModelAdmin):
+class MimeAdmin(SimpleHistoryAdmin):
     list_display = ('name', )
 
 
 @admin.register(Plugin, site=admin_site)
-class PluginAdmin(admin.ModelAdmin):
+class PluginAdmin(SimpleHistoryAdmin):
     list_display = (
         'slug',
         'name')
@@ -19,7 +20,7 @@ class PluginAdmin(admin.ModelAdmin):
 
 
 @admin.register(PluginAlias, site=admin_site)
-class PluginAliasAdmin(admin.ModelAdmin):
+class PluginAliasAdmin(SimpleHistoryAdmin):
     list_display = (
         'plugin',
         'alias',
@@ -31,7 +32,7 @@ class PluginAliasAdmin(admin.ModelAdmin):
 
 
 @admin.register(PluginRelease, site=admin_site)
-class PluginReleaseAdmin(admin.ModelAdmin):
+class PluginReleaseAdmin(SimpleHistoryAdmin):
     list_display = (
         'plugin',
         'os',

@@ -39,6 +39,7 @@ INSTALLED_APPS = (
 
     # 3rd party
     'django_browserid',
+    'simple_history',
 
     # local apps
     'plugincheck.base',
@@ -56,6 +57,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'simple_history.middleware.HistoryRequestMiddleware',
 )
 
 ROOT_URLCONF = 'plugincheck.urls'

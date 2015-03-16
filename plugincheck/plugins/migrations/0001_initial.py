@@ -53,7 +53,7 @@ class Migration(migrations.Migration):
             name='PluginRelease',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('os', models.CharField(default='*', max_length=32, choices=[('*', 'All'), ('win', 'Windows'), ('mac', 'Mac OS X'), ('lin', 'Linux')])),
+                ('os', models.CharField(default='*', max_length=32, choices=[('all', 'All'), ('win', 'Windows'), ('mac', 'Mac OS X'), ('lin', 'Linux')])),
                 ('status', models.CharField(default='unknown', max_length=16, choices=[('unknown', 'unknown'), ('latest', 'latest'), ('outdated', 'outdated'), ('vulnerable', 'vulnerable'), ('should_disable', 'should_disable')])),
                 ('name', models.CharField(default='', max_length=255, blank=True)),
                 ('description', models.TextField(default='', blank=True)),

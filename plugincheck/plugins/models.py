@@ -1,9 +1,12 @@
 from django.db import models
 
+from simple_history.models import HistoricalRecords
+
 
 class Mime(models.Model):
     """Represents a MIME type."""
     name = models.CharField(max_length=255, unique=True)
+    history = HistoricalRecords()
 
     def __unicode__(self):
         return self.name
@@ -19,6 +22,7 @@ class Plugin(models.Model):
     mimes = models.ManyToManyField(Mime, blank=True)
     modified = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now_add=True)
+    history = HistoricalRecords()
 
     def __unicode__(self):
         return u'[{slug}] {name}'.format(
@@ -31,6 +35,7 @@ class PluginAlias(models.Model):
     plugin = models.ForeignKey(Plugin)
     alias = models.CharField(max_length=255)
     is_regex = models.BooleanField(default=False)
+    history = HistoricalRecords()
 
     class Meta(object):
         unique_together = (
@@ -89,6 +94,7 @@ class PluginRelease(models.Model):
     manual_installation_url = models.URLField(max_length=255, blank=True, default=u'')
     modified = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now_add=True)
+    history = HistoricalRecords()
 
     class Meta(object):
         unique_together = (

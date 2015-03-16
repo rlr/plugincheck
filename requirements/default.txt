@@ -4,6 +4,9 @@ django==1.7.4
 # sha256: EXGi39Bz0MuXOkgtic_AweW52n1VHcCgAkEoZ-z1KT4
 django-browserid==0.11.1
 
+# sha256: JZ_r4Wk9rD3h3KBRgLYzTmZzyLFKhe_Swmz2PQf0Fj8
+django-simple-history==1.5.4
+
 # sha256: akF58qKszaKyc7_Ybeb3AkzuIDBDzJp8BA_nswa74SA
 fancy-tag==0.2.0
 

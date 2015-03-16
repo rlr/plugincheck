@@ -20,9 +20,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'w^%e5fp%-kiw=f)t#vl10=o!m36bshi42xd##k61^$7ef6_!e%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -64,17 +64,6 @@ ROOT_URLCONF = 'plugincheck.urls'
 
 WSGI_APPLICATION = 'plugincheck.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/1.7/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
@@ -89,16 +78,40 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.7/howto/static-files/
-
-STATIC_URL = '/static/'
-
-
 AUTHENTICATION_BACKENDS = (
    'plugincheck.base.auth.OnlyMozillaBackend',
 )
 
+BROWSERID_AUDIENCES = [
+    'http://localhost:8000',
+    'https://plugincheck-dev.herokuapp.com',
+    'http://plugincheck-dev.herokuapp.com']
+
 LOGIN_REDIRECT_URL = '/admin/'
 
 USE_ETAGS = True
+
+# Parse database configuration from $DATABASE_URL
+import dj_database_url
+DATABASES = {
+    'default':  dj_database_url.config()
+}
+
+# Honor the 'X-Forwarded-Proto' header for request.is_secure()
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# Allow all host headers
+ALLOWED_HOSTS = ['*']
+
+# Static asset configuration
+STATIC_ROOT = 'staticfiles'
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'plugincheck', 'static'),
+)
+
+try:
+    from plugincheck.settings_local import *
+except ImportError:
+    pass

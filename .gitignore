@@ -3,5 +3,6 @@
 plugincheck/settings_local.py
 pip-log.txt
 docs/_build
-/static
+staticfiles
 .DS_Store
+venv

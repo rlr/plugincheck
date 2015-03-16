@@ -1,3 +1,9 @@
+# sha256: 8uJz7TSsu1YJYtXPEpF5NtjfAil98JvTCJuFRtRYQTg
+dj-database-url==0.3.0
+
+# sha256: Ay7BxTJheSLm4-lW1QSm-xrM5PwcfJRhLQ_aIYKM6O8
+dj-static==0.0.6
+
 # sha256: SBb4kgY1acqad1hPojy0mVwbO5VO-HUQKoIZIpy9LjM
 django==1.7.7
 
@@ -7,11 +13,20 @@ django-browserid==0.11.1
 # sha256: JZ_r4Wk9rD3h3KBRgLYzTmZzyLFKhe_Swmz2PQf0Fj8
 django-simple-history==1.5.4
 
+# sha256: JxG3-cRpCKP4Z_TrtcDD8G3MTyyr5Ip6Uykvbxy7g-U
+django-toolbelt==0.0.1
+
 # sha256: akF58qKszaKyc7_Ybeb3AkzuIDBDzJp8BA_nswa74SA
 fancy-tag==0.2.0
+
+# sha256: i8g1CCiCrZoBLNeQxGABHk2WvzUS2YoE09q75FOToIk
+gunicorn==19.3.0
 
 # sha256: wAr-yzAqmaT4PeybBVxNHMGWkm1iyNsBXWhDLfgRjKg
 psycopg2==2.6
 
 # sha256: e3c179Ox4jI9yfzvBgs4DQX18YvQ8kf16edKYoJ53mY
 requests==2.5.1
+
+# sha256: eDk5g0gtj0Hm_PkfP9mcl5ztCIxHQMnyKDW5bmcSiXw
+static3==0.5.1

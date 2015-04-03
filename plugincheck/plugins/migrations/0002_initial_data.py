@@ -1997,7 +1997,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "vendor information",
         "version": "11.1.102.64",
         "plugin_slug": "adobe-flash-player",
-        "os": "intel mac os x 10.6"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2013,7 +2013,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "vendor information",
         "version": "10.3.183.18",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2029,7 +2029,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "Vendor information",
         "version": "10.3.183.20",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2045,7 +2045,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "vendor information",
         "version": "10.3.183.29",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2061,7 +2061,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "Vendor information",
         "version": "10.3.183.43",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2077,7 +2077,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "vendor information",
         "version": "10.3.183.48",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2093,7 +2093,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "vendor information",
         "version": "10.3.183.50",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2109,7 +2109,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "",
         "version": "10.3.183.51",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2125,7 +2125,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "vendor information",
         "version": "10.3.183.61",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2141,7 +2141,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "vendor information",
         "version": "10.3.183.67",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2157,7 +2157,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "Vendor information",
         "version": "10.3.183.68",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2173,7 +2173,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": " Vendor Information",
         "version": "10.3.183.86",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -2189,23 +2189,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "",
         "version": "10.3.183.90",
         "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.5"
-    },
-    {
-        "status": "vulnerable",
-        "vendor": "Adobe",
-        "description": "",
-        "manual_installation_url": "",
-        "vulnerability_url": "http://www.adobe.com/support/security/bulletins/apsb12-07.html",
-        "xpi_location": "",
-        "detected_version": "11.1.102.64",
-        "name": "Adobe Flash Player",
-        "url": "http://www.adobe.com/go/getflashplayer",
-        "filename": "",
-        "vulnerability_description": "vendor information",
-        "version": "11.1.102.64",
-        "plugin_slug": "adobe-flash-player",
-        "os": "Intel Mac OS X 10.7"
+        "os": "mac"
     },
     {
         "status": "vulnerable",
@@ -3261,7 +3245,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "About the security content of QuickTime 7.6.9",
         "version": "7.6.6",
         "plugin_slug": "apple-quicktime",
-        "os": "intel mac os x 10.6"
+        "os": "mac"
     },
     {
         "status": "outdated",
@@ -3277,23 +3261,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "",
         "version": "7.6.9",
         "plugin_slug": "apple-quicktime",
-        "os": "Intel Mac OS X 10.5"
-    },
-    {
-        "status": "outdated",
-        "vendor": "Apple",
-        "description": "",
-        "manual_installation_url": "",
-        "vulnerability_url": "",
-        "xpi_location": "",
-        "detected_version": "7.6.9",
-        "name": "QuickTime Plug-in",
-        "url": "http://www.apple.com/quicktime/download/",
-        "filename": "",
-        "vulnerability_description": "",
-        "version": "7.6.9",
-        "plugin_slug": "apple-quicktime",
-        "os": "PPC Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "latest",
@@ -3309,23 +3277,7 @@ PLUGIN_RELEASES = [
         "vulnerability_description": "",
         "version": "7.7.1",
         "plugin_slug": "apple-quicktime",
-        "os": "Intel Mac OS X 10.7"
-    },
-    {
-        "status": "latest",
-        "vendor": "Apple",
-        "description": "",
-        "manual_installation_url": "",
-        "vulnerability_url": "",
-        "xpi_location": "",
-        "detected_version": "7.7.1",
-        "name": "QuickTime Plug-in",
-        "url": "http://www.apple.com/quicktime/download/",
-        "filename": "",
-        "vulnerability_description": "",
-        "version": "7.7.1",
-        "plugin_slug": "apple-quicktime",
-        "os": "Intel Mac OS X 10.8"
+        "os": "mac"
     },
     {
         "status": "latest",
@@ -3334,7 +3286,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.5.0.71",
+        "detected_version": "5.0.71",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3350,7 +3302,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/java/javase/6u22releasenotes-176121.html",
         "xpi_location": "",
-        "detected_version": "1.6.0.18",
+        "detected_version": "6.0.18",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3366,7 +3318,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.6.0.20",
+        "detected_version": "6.0.20",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3382,7 +3334,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.6.0.21",
+        "detected_version": "6.0.21",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3398,7 +3350,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.6.0.22",
+        "detected_version": "6.0.22",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3414,7 +3366,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html",
         "xpi_location": "",
-        "detected_version": "1.6.0.23",
+        "detected_version": "6.0.23",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3430,7 +3382,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html",
         "xpi_location": "",
-        "detected_version": "1.6.0.24",
+        "detected_version": "6.0.24",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3446,7 +3398,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html",
         "xpi_location": "",
-        "detected_version": "1.6.0.25",
+        "detected_version": "6.0.25",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3462,7 +3414,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html",
         "xpi_location": "",
-        "detected_version": "1.6.0.26",
+        "detected_version": "6.0.26",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3478,7 +3430,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html",
         "xpi_location": "",
-        "detected_version": "1.6.0.27",
+        "detected_version": "6.0.27",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3494,7 +3446,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html",
         "xpi_location": "",
-        "detected_version": "1.6.0.29",
+        "detected_version": "6.0.29",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3510,7 +3462,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html#PatchTable",
         "xpi_location": "",
-        "detected_version": "1.6.0.30",
+        "detected_version": "6.0.30",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3526,7 +3478,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.6.0.31",
+        "detected_version": "6.0.31",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3542,7 +3494,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpuoct2012-1515924.html",
         "xpi_location": "",
-        "detected_version": "1.6.0.35",
+        "detected_version": "6.0.35",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3558,7 +3510,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.6.0.37",
+        "detected_version": "6.0.37",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3574,7 +3526,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.6.0.81",
+        "detected_version": "6.0.81",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3590,7 +3542,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/alert-cve-2013-0422-1896849.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.10",
+        "detected_version": "7.0.10",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3606,7 +3558,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.11",
+        "detected_version": "7.0.11",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3622,7 +3574,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpufeb2013update-1905892.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.13",
+        "detected_version": "7.0.13",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3638,7 +3590,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/alert-cve-2013-1493-1915081.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.15",
+        "detected_version": "7.0.15",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3654,7 +3606,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.17",
+        "detected_version": "7.0.17",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3670,7 +3622,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.21",
+        "detected_version": "7.0.21",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3686,7 +3638,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.7.0.25",
+        "detected_version": "7.0.25",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3702,7 +3654,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.4",
+        "detected_version": "7.0.4",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3718,7 +3670,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/java/javase/7u45-relnotes-2016950.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.40",
+        "detected_version": "7.0.40",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3734,7 +3686,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/java/javase/7u51-relnotes-2085002.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.45",
+        "detected_version": "7.0.45",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3750,7 +3702,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "https://blog.mozilla.org/security/2012/08/28/protecting-users-against-java-security-vulnerability/",
         "xpi_location": "",
-        "detected_version": "1.7.0.5",
+        "detected_version": "7.0.5",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3766,7 +3718,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.51",
+        "detected_version": "7.0.51",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3782,7 +3734,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/java/javase/7u65-relnotes-2229169.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.55",
+        "detected_version": "7.0.55",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3798,7 +3750,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "https://blog.mozilla.org/security/2012/08/28/protecting-users-against-java-security-vulnerability/",
         "xpi_location": "",
-        "detected_version": "1.7.0.6",
+        "detected_version": "7.0.6",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3814,7 +3766,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/java/javase/7u65-relnotes-2229169.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.60",
+        "detected_version": "7.0.60",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3830,7 +3782,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.65",
+        "detected_version": "7.0.65",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3846,7 +3798,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.67",
+        "detected_version": "7.0.67",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3862,7 +3814,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpuoct2012-1515924.html",
         "xpi_location": "",
-        "detected_version": "1.7.0.7",
+        "detected_version": "7.0.7",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3878,7 +3830,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.7.0.71",
+        "detected_version": "7.0.71",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3894,7 +3846,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.7.0.9",
+        "detected_version": "7.0.9",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3910,7 +3862,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html",
         "xpi_location": "",
-        "detected_version": "1.8.0.0",
+        "detected_version": "8.0.0",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3926,7 +3878,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html",
         "xpi_location": "",
-        "detected_version": "1.8.0.11",
+        "detected_version": "8.0.11",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3942,7 +3894,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.8.0.25",
+        "detected_version": "8.0.25",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3958,7 +3910,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/java/javase/8u11-relnotes-2232915.html",
         "xpi_location": "",
-        "detected_version": "1.8.0.5",
+        "detected_version": "8.0.5",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3974,7 +3926,7 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.5.0.20",
+        "detected_version": "5.0.20",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
@@ -3990,14 +3942,14 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html",
         "xpi_location": "",
-        "detected_version": "1.6.0.29",
+        "detected_version": "6.0.29",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
         "vulnerability_description": "Oracle Java SE Critical Patch Update Advisory",
         "version": "6.0.29",
         "plugin_slug": "java-runtime-environment",
-        "os": "intel mac os x 10.6"
+        "os": "mac"
     },
     {
         "status": "latest",
@@ -4006,14 +3958,14 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.6.0.31",
+        "detected_version": "6.0.31",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
         "vulnerability_description": "",
         "version": "6.0.31",
         "plugin_slug": "java-runtime-environment",
-        "os": "intel mac os x 10.6"
+        "os": "mac"
     },
     {
         "status": "should_disable",
@@ -4022,14 +3974,14 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.6.0.26",
+        "detected_version": "6.0.26",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
         "vulnerability_description": "",
         "version": "6.0.26",
         "plugin_slug": "java-runtime-environment",
-        "os": "Intel Mac OS X 10.5"
+        "os": "mac"
     },
     {
         "status": "should_disable",
@@ -4038,14 +3990,14 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.4.2",
+        "detected_version": "4.2",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
         "vulnerability_description": "",
         "version": "4.2",
         "plugin_slug": "java-runtime-environment",
-        "os": "Intel Mac OS X 10.3"
+        "os": "mac"
     },
     {
         "status": "should_disable",
@@ -4054,14 +4006,14 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "0.9.7.2",
+        "detected_version": "9.7.2",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
         "vulnerability_description": "",
         "version": "9.7.2",
         "plugin_slug": "java-runtime-environment",
-        "os": "Intel Mac OS X 10.4"
+        "os": "mac"
     },
     {
         "status": "should_disable",
@@ -4070,46 +4022,14 @@ PLUGIN_RELEASES = [
         "manual_installation_url": "",
         "vulnerability_url": "",
         "xpi_location": "",
-        "detected_version": "1.3.1",
+        "detected_version": "3.1",
         "name": "Java Runtime Environment",
         "url": "http://www.java.com/en/download/manual.jsp",
         "filename": "",
         "vulnerability_description": "",
         "version": "3.1",
         "plugin_slug": "java-runtime-environment",
-        "os": "Intel Mac OS X 10.4"
-    },
-    {
-        "status": "vulnerable",
-        "vendor": "Sun Microsystems",
-        "description": "",
-        "manual_installation_url": "",
-        "vulnerability_url": "",
-        "xpi_location": "",
-        "detected_version": "1.6.0.29",
-        "name": "Java Runtime Environment",
-        "url": "http://www.java.com/en/download/manual.jsp",
-        "filename": "",
-        "vulnerability_description": "",
-        "version": "6.0.29",
-        "plugin_slug": "java-runtime-environment",
-        "os": "Intel Mac OS X 10.7"
-    },
-    {
-        "status": "latest",
-        "vendor": "Sun Microsystems",
-        "description": "",
-        "manual_installation_url": "",
-        "vulnerability_url": "",
-        "xpi_location": "",
-        "detected_version": "1.6.0.31",
-        "name": "Java Runtime Environment",
-        "url": "http://www.java.com/en/download/manual.jsp",
-        "filename": "",
-        "vulnerability_description": "",
-        "version": "6.0.31",
-        "plugin_slug": "java-runtime-environment",
-        "os": "Intel Mac OS X 10.7"
+        "os": "mac"
     },
     {
         "status": "vulnerable",

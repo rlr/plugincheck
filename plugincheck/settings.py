@@ -85,7 +85,8 @@ AUTHENTICATION_BACKENDS = (
 BROWSERID_AUDIENCES = [
     'http://localhost:8000',
     'https://plugincheck-dev.herokuapp.com',
-    'http://plugincheck-dev.herokuapp.com']
+    'http://plugincheck-dev.herokuapp.com',
+    'https://plugincheck.herokuapp.com']
 
 LOGIN_REDIRECT_URL = '/admin/'
 

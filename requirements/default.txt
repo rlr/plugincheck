@@ -1,5 +1,5 @@
-# sha256: 8zJVr7ue4Jd9kJWrC1D94fjd_0IgtX6NGcZiCz4xYXA
-django==1.7.4
+# sha256: SBb4kgY1acqad1hPojy0mVwbO5VO-HUQKoIZIpy9LjM
+django==1.7.7
 
 # sha256: EXGi39Bz0MuXOkgtic_AweW52n1VHcCgAkEoZ-z1KT4
 django-browserid==0.11.1

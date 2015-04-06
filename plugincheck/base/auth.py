@@ -1,9 +1,10 @@
+from django.contrib.auth.backends import ModelBackend
 from django.contrib.auth.models import Group
 
 from django_browserid.auth import BrowserIDBackend
 
 
-class OnlyMozillaBackend(BrowserIDBackend):
+class OnlyMozillaBackend(BrowserIDBackend, ModelBackend):
     """Backend that only allows *@mozilla.com emails to join.
 
     They get is_staff bit by default.

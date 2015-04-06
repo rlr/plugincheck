@@ -96,7 +96,7 @@ STATIC_URL = '/static/'
 
 
 AUTHENTICATION_BACKENDS = (
-   'django_browserid.auth.BrowserIDBackend',
+   'plugincheck.base.auth.OnlyMozillaBackend',
 )
 
 LOGIN_REDIRECT_URL = '/admin/'

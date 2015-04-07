@@ -1,10 +1,13 @@
 from django.http import JsonResponse
 from django.shortcuts import render
+from django.views.decorators.cache import cache_control
 
 from plugincheck.base.decorators import cors_enabled
 from plugincheck.plugins.models import Mime, Plugin, PluginRelease
 
+
 @cors_enabled('*')
+@cache_control(max_age=3600)
 def plugins_list_json(self):
     """Returns the list of plugins in json.
 

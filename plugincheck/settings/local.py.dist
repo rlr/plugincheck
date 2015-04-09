@@ -2,10 +2,9 @@
 # and edit it to match your config. At the very least you need to edit the
 # database USER. You should also change the value of SECRET_KEY.
 
-from plugincheck.settings import *
+from plugincheck.settings.base import *
+from plugincheck.settings_utils import parse_cache_url
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ChangeMe!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -25,3 +24,12 @@ DATABASES = {
         'HOST': 'localhost',
     }
 }
+
+# Note: This uses locmem for caching. If you want to use memcache, delete this
+# and uncomment the memcache version.
+CACHES = {
+    'default': parse_cache_url('locmem://')
+}
+
+# If you're using memcache, you can uncomment this and use it.
+# CACHES = {'default': parse_cache_url('memcached://localhost:11211/plugincheck')}

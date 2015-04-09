@@ -1,6 +1,6 @@
 # This is the settings file for travis.
 
-from plugincheck.settings import *
+from plugincheck.settings.base import *
 
 
 DATABASES = {

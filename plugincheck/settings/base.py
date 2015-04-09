@@ -8,8 +8,11 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+
+from plugincheck.settings_utils import config
+
+# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -17,14 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'w^%e5fp%-kiw=f)t#vl10=o!m36bshi42xd##k61^$7ef6_!e%'
+SECRET_KEY = config('SECRET_KEY', default='ChangeMe!', type_='str')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = config('DEBUG', default=False, type_='bool')
 
-TEMPLATE_DEBUG = False
-
-ALLOWED_HOSTS = []
+TEMPLATE_DEBUG = config('DEBUG', default=False, type_='bool')
 
 
 # Application definition
@@ -98,6 +99,9 @@ DATABASES = {
     'default':  dj_database_url.config()
 }
 
+# Parse cache configuration from $CACHE_URL
+CACHES = {'default': config('CACHE_URL', type_='cache_url')}
+
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
@@ -111,8 +115,3 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'plugincheck', 'static'),
 )
-
-try:
-    from plugincheck.settings_local import *
-except ImportError:
-    pass

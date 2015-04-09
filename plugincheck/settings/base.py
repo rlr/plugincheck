@@ -10,8 +10,6 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 import os
 
-from plugincheck.settings_utils import config
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.abspath(
     os.path.join(
@@ -25,12 +23,12 @@ BASE_DIR = os.path.abspath(
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY', default='ChangeMe!', type_='str')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default='False', type_='bool')
+DEBUG = False
 
-TEMPLATE_DEBUG = config('DEBUG', default='False', type_='bool')
+TEMPLATE_DEBUG = False
 
 
 # Application definition
@@ -103,9 +101,6 @@ import dj_database_url
 DATABASES = {
     'default':  dj_database_url.config()
 }
-
-# Parse cache configuration from $CACHE_URL
-CACHES = {'default': config('CACHE_URL', default='locmem://', type_='cache_url')}
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

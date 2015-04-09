@@ -1,8 +1,12 @@
 # This is the settings file for travis.
 
 from plugincheck.settings.base import *
-from plugincheck.settings_utils import parse_cache_url
 
+
+DEBUG = True
+TEMPLATE_DEBUG = True
+
+SECRET_KEY = 'travis-doesnt-keep-secrets'
 
 DATABASES = {
     'default': {

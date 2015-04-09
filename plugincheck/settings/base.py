@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = config('SECRET_KEY', default='ChangeMe!', type_='str')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default=False, type_='bool')
+DEBUG = config('DEBUG', default='False', type_='bool')
 
-TEMPLATE_DEBUG = config('DEBUG', default=False, type_='bool')
+TEMPLATE_DEBUG = config('DEBUG', default='False', type_='bool')
 
 
 # Application definition

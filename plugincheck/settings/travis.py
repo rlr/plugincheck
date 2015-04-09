@@ -1,6 +1,7 @@
 # This is the settings file for travis.
 
 from plugincheck.settings.base import *
+from plugincheck.settings_utils import parse_cache_url
 
 
 DATABASES = {

@@ -100,7 +100,7 @@ DATABASES = {
 }
 
 # Parse cache configuration from $CACHE_URL
-CACHES = {'default': config('CACHE_URL', type_='cache_url')}
+CACHES = {'default': config('CACHE_URL', default='locmem://', type_='cache_url')}
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

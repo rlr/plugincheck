@@ -49,7 +49,7 @@ def parse_cache_url(val):
     For example::
 
         locmem://
-        memcached://localhost:11211/fjord
+        memcached://localhost:11211/plugincheck
 
     """
     if not val:

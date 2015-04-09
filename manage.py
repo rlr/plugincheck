@@ -5,7 +5,7 @@ import sys
 
 if __name__ == "__main__":
     # If we're running tests, then we pull from
-    # DJANGO_TEST_SETTINGS_MODULE or use "harold.settings.test" and
+    # DJANGO_TEST_SETTINGS_MODULE or use "plugincheck.settings.test" and
     # stomp on DJANGO_SETTINGS_MODULE.  This makes it easier to have
     # separate test settings.
     if 'test' in sys.argv:

@@ -25,3 +25,5 @@ DATABASES = {
         'HOST': 'localhost',
     }
 }
+
+BROWSERID_AUDIENCES = ['http://localhost:8000']

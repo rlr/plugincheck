@@ -86,11 +86,7 @@ AUTHENTICATION_BACKENDS = (
    'plugincheck.base.auth.OnlyMozillaBackend',
 )
 
-BROWSERID_AUDIENCES = [
-    'http://localhost:8000',
-    'https://plugincheck-dev.herokuapp.com',
-    'http://plugincheck-dev.herokuapp.com',
-    'https://plugincheck.herokuapp.com']
+BROWSERID_AUDIENCES = ['https://plugincheck.herokuapp.com']
 
 LOGIN_REDIRECT_URL = '/admin/'
 

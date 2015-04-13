@@ -2,6 +2,6 @@
 # pwd is the git repo.
 set -e
 
-export DJANGO_TEST_SETTINGS_MODULE=plugincheck.settings.travis
+export DATABASE_URL=postgres://postgres:@localhost:5432/plugincheck
 python manage.py test --noinput
 echo 'Booyahkasha!'

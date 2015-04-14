@@ -3,9 +3,7 @@
 set -e
 
 echo "Install Python dependencies"
-./peep.sh install \
-    -r requirements/default.txt \
-    -r requirements/dev.txt
+./peep.sh install -r requirements.txt
 
 # Print the installed packages for the world to see.
 pip freeze

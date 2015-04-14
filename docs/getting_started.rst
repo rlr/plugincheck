@@ -138,7 +138,7 @@ website to test it manually.
 
 To launch the Django runserver::
 
-    $ ./manage.py runserver 0.0.0.0:8000
+    $ ./manage.py runserver
 
 
 Then on your host computer, use your browser and go to

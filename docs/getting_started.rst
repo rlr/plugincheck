@@ -91,24 +91,27 @@ For more information on ``peep``, refer to the
 Configuration and Setup
 =======================
 
-settings_local.py
+settings/local.py
 -----------------
 
-There is a file called ``settings_local.py.dist`` in the ``plugincheck/``
+There is a file called ``local.py.dist`` in the ``plugincheck/settings``
 directory. This contains a sample set of local settings. Copy the file, name
-it ``settings_local.py``. and edit it, following the instructions within.
+it ``local.py``. and edit it, following the instructions within.
 Don't forget to change ``<db_user>`` to your actual database user. Also,
 add a password if the database account you are using requires one.
 
 Additionally, you can copy and modify any settings from
-``plugincheck/settings.py`` into ``plugincheck/settings_local.py`` and the
+``plugincheck/settings/base.py`` into ``plugincheck/settings/local.py`` and the
 value will override the default.
+
+Finally, you must create an environment variable, DJANGO_SETTINGS_MODULE, and
+point it to these settings: 'plugincheck.settings.local'.
 
 
 Database
 --------
 
-You defined a database connection in ``plugincheck/settings_local.py``.
+You defined a database connection in ``plugincheck/settings/local.py``.
 
 Now create the database::
 

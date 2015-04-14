@@ -3,8 +3,9 @@ language: python
 python: "2.7"
 
 env:
-  globals:
-    - DJANGO_SETTINGS_MODULE="plugincheck.settings_travis"
+  global:
+    - SECRET_KEY="travis-doesnt-keep-secrets"
+    - DATABASE_URL="postgres://postgres:@localhost:5432/plugincheck"
     - PIP_DOWNLOAD_CACHE="pip_cache"
   matrix:
     - TEST_SUITE=django

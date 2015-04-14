@@ -1,7 +1,8 @@
 *.pyc
 *.pyo
-plugincheck/settings_local.py
+plugincheck/settings/local.py
 pip-log.txt
 docs/_build
 /static
 .DS_Store
+venv

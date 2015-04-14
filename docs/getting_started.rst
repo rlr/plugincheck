@@ -78,13 +78,7 @@ All the pure-Python requirements are provided in the requirements
 directory. We use a tool called ``peep`` to install packages and make sure
 versions are pinned. ::
 
-    $ ./peep.sh install -r requirements/default.txt
-
-
-Additionally, you may install some useful development tools. These are not
-required, but are helpful::
-
-    $ ./peep.sh install -r requirements/dev.txt
+    $ ./peep.sh install -r requirements.txt
 
 
 If you have any issues installing via ``peep``, be sure you have the required

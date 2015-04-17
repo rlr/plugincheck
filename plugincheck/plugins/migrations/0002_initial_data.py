@@ -37,7 +37,7 @@ def add_initial_data(apps, schema_editor):
 
     for release in PLUGIN_RELEASES:
         PluginRelease.objects.create(
-            plugin=Plugin.objects.get(slug=release['plugin_slug']),
+            plugin_id=Plugin.objects.get(slug=release['plugin_slug']).id,
             os=release['os'],
             status=release['status'],
             name=release['name'],

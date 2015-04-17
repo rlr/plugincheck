@@ -1,8 +1,8 @@
 # sha256: 8uJz7TSsu1YJYtXPEpF5NtjfAil98JvTCJuFRtRYQTg
 dj-database-url==0.3.0
 
-# sha256: SBb4kgY1acqad1hPojy0mVwbO5VO-HUQKoIZIpy9LjM
-django==1.7.7
+# sha256: BmutQstMZpROfvz3ME09F_ew6yIuU5WM3YZkINLotBI
+django==1.8
 
 # django-browserid: master
 # sha256: Of1fIP6HbcPFKIRKN8uvwFODXSBfRxv8lyTplx4gg3Q

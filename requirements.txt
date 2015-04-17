@@ -4,8 +4,9 @@ dj-database-url==0.3.0
 # sha256: SBb4kgY1acqad1hPojy0mVwbO5VO-HUQKoIZIpy9LjM
 django==1.7.7
 
-# sha256: EXGi39Bz0MuXOkgtic_AweW52n1VHcCgAkEoZ-z1KT4
-django-browserid==0.11.1
+# django-browserid: master
+# sha256: Of1fIP6HbcPFKIRKN8uvwFODXSBfRxv8lyTplx4gg3Q
+https://github.com/mozilla/django-browserid/archive/fe0a40b77d0f5ef70b7e16be2e11b350b4911708.tar.gz#egg=django-browserid==0.11.1.1
 
 # sha256: UXPQvapSEKrvheDsk5fZXVuXb1DogqZMCV2PrbHwxcw
 django-simple-history==1.6
